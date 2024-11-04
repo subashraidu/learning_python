@@ -1,0 +1,27 @@
+## print syntax ##
+
+1. The simplest form: print("Hello, World!")
+
+2. Printing Variables
+name = "Alice"
+age = 30
+print(name, age) 
+
+3. String Concatenation
+print("Hello, " + name + "! You are " + str(age) + " years old.")
+
+4. Formatted Strings (f-strings)
+print(f"Hello, {name}! You are {age} years old.")
+
+5.str.format() Method
+print("Hello, {}! You are {} years old.".format(name, age))
+
+6. Multi-line Printing
+print("""This is a multi-line
+string that spans multiple
+lines.""")
+
+## input syntax ##
+
+
+
