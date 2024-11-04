@@ -1,0 +1,40 @@
+#Write your code in a text file with a .py extension (e.g., hello.py) and run it using python hello.py.
+
+print("Hello, World!")
+
+# Variables: You can store data in variables:
+name = "Alice"
+age = 30
+print(name)
+print(age)
+
+# Data Types
+Integers: Whole numbers (e.g., 5, -3)
+Floats: Decimal numbers (e.g., 3.14, -0.5)
+Strings: Text (e.g., "Hello", 'Python')
+Booleans: True or False
+
+# Basic Operations
+a = 10
+b = 5
+sum_result = a + b
+print("Sum:", sum_result)
+
+# Control Structures: If Statements
+
+if age > 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+
+Loops: You can repeat actions using loops. For example, a for loop:
+for i in range(5):
+    print(i)  # Prints numbers 0 to 4
+
+Functions : You can define reusable pieces of code with functions:
+def greet(name):
+    print("Hello, " + name)
+
+greet("Alice")
+
+
